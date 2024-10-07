@@ -13,7 +13,7 @@ n = int(input())
 if n <= 120:
     if n % 10 == 1 and n != 11:
         print(f'{n} год')
-    elif (n % 10 in (2, 3, 4)) and (n % 10 not in (12, 13, 14)):
+    elif (n % 10 in (2, 3, 4)) and (n not in (12, 13, 14)):
         print(f'{n} года')
     else:
         print(f'{n} лет')
